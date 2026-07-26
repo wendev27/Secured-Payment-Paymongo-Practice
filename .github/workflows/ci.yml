@@ -1,0 +1,17 @@
+# Placeholder CI workflow
+# Real CI/CD implementation will be added in Milestone 8
+
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "CI/CD pipeline will be implemented in Milestone 8"
